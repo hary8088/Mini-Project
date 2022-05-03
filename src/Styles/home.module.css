@@ -1,0 +1,53 @@
+.homeCon img {
+  object-fit: cover;
+}
+.data {
+  display: flex;
+}
+.data > .list {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  padding: 12px 8px 12px 8px;
+  border-radius: 10px;
+  justify-content: center;
+  transition: all 0.3s ease-in;
+  background-color: rgba(128, 128, 128, 0.116);
+}
+.data > .list > li {
+  list-style-type: none;
+}
+.data {
+  padding: 1%;
+  margin-left: 6%;
+  justify-content: center;
+}
+.data > .list:hover {
+  -webkit-box-shadow: 10px 9px 34px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 9px 34px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 9px 34px -16px rgba(0, 0, 0, 0.75);
+
+  cursor: pointer;
+}
+
+.ourProducts {
+  text-align: center;
+  font-size: 30px;
+}
+.products::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 19%;
+  padding: 6px;
+}
+/* .products > .column {
+  border: 2px solid #000;
+}
+.products > column:hover {
+} */

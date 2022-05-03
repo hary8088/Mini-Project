@@ -1,0 +1,25 @@
+.ourProducts {
+  text-align: center;
+  margin: 10px 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.products {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.column {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  transition: 0.5s;
+}
+.column:hover img {
+  filter: blur(5px);
+  cursor: pointer;
+}
+.column > :first-child > h3 {
+  display: none;
+}
