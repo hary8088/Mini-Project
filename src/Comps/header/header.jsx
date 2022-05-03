@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from "../Styles/header.module.css";
+import Styles from "./header.module.css";
 function header() {
   return (
     <React.Fragment>

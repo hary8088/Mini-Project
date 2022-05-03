@@ -1,6 +1,6 @@
 import React from "react";
-import Styles from "../Styles/home.module.css";
-import img1 from "../images/img-1.jpg";
+import Styles from "./home.module.css";
+import img1 from "../../images/img-1.jpg";
 import { MdOutlineVerified } from "react-icons/md";
 import Products from "../Product/Products";
 

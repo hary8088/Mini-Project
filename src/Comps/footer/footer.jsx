@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from "../Styles/footer.module.css";
+import Styles from "./footer.module.css";
 import { SiInstagram } from "react-icons/si";
 import { ImFacebook2 } from "react-icons/im";
 import { ImWhatsapp } from "react-icons/im";
