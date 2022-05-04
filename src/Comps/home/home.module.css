@@ -31,23 +31,3 @@
 
   cursor: pointer;
 }
-
-.ourProducts {
-  text-align: center;
-  font-size: 30px;
-}
-.products::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.column {
-  float: left;
-  width: 19%;
-  padding: 6px;
-}
-/* .products > .column {
-  border: 2px solid #000;
-}
-.products > column:hover {
-} */

@@ -1,15 +1,17 @@
 import React from "react";
-import Header from "./Comps/header/header";
-import Footer from "./Comps/footer/footer";
+import Login from "./Comps/login/login";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Comps/home/home";
-// import About from '../src/Pages/about'
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

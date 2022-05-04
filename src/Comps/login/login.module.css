@@ -1,0 +1,58 @@
+.main {
+  background-image: url("https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  min-height: 100vh;
+  background-position: center;
+}
+
+.submain {
+  margin: 10px;
+  padding: 20px 70px;
+  border-radius: 12px;
+  background: #e8e8e8;
+  box-shadow: 20px 20px 59px #c5c5c5, -20px -20px 59px #ffffff;
+  background-color: aliceblue;
+  width: fit-content;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.customer h1 {
+  font-size: 22px;
+}
+
+.customer hr {
+  height: 1px;
+  background-color: black;
+}
+
+.input {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  gap: 5px;
+}
+.input input {
+  border: none;
+  border-bottom: 2px solid gray;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+
+.input input::placeholder {
+  color: rgb(186, 186, 186);
+}
+
+.input input {
+  outline: none;
+}
+
+.btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

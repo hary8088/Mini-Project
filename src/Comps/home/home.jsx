@@ -3,12 +3,15 @@ import Styles from "./home.module.css";
 import img1 from "../../images/img-1.jpg";
 import { MdOutlineVerified } from "react-icons/md";
 import Products from "../Product/Products";
+import Header from "../header/header";
+import Footer from "../footer/footer";
 
 function home() {
   return (
     <>
+      <Header />
       <div className={Styles.homeCon}>
-        <img src={img1} width={1260} alt="Building" />
+        <img src={img1} width={1264} alt="Building" />
       </div>
       <div className={Styles.data}>
         <div className={Styles.list}>
@@ -29,6 +32,7 @@ function home() {
         </div>
       </div>
       <Products />
+      <Footer />
     </>
   );
 }

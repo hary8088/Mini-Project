@@ -11,14 +11,22 @@
   margin-bottom: 50px;
 }
 .column {
-  width: 200px;
-  height: 150px;
   position: relative;
   transition: 0.5s;
 }
 .column:hover img {
   filter: blur(5px);
   cursor: pointer;
+}
+.column:hover .text {
+  color: antiquewhite;
+  display: block;
+}
+.column > .text {
+  position: absolute;
+  top: 40%;
+  left: 32%;
+  display: none;
 }
 .column > :first-child > h3 {
   display: none;
