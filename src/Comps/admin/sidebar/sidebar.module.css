@@ -1,0 +1,21 @@
+/* .title{
+    background-color: aqua;
+    font-size: 400px;
+} */
+.container{
+    box-sizing: border-box;
+    background-color: blueviolet;
+    width: fit-content;
+    height: 100%;
+    padding: 30px;
+}
+.row{
+    padding:10px 5px;
+}
+.header{
+    padding: 20px;
+}
+.content li{
+    list-style: none;
+    margin-left: 10px;
+}

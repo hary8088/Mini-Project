@@ -1,33 +1,48 @@
-.homeCon img {
-  object-fit: cover;
+.homeCon {
+	/* object-fit: cover; */
+	background-image: url("../../images/img-1.jpg");
+	height: 1000px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.heading h1 {
+	font-size: 90px;
+	color: rgb(255, 255, 255);
+	padding-top: 200px;
+	padding-left: 140px;
+	display: flex;
+	justify-content: start;
+	align-content: center;
+
+	text-shadow: 2px 2px 0px #5a5a5a, 5px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .data {
-  display: flex;
+	display: flex;
 }
 .data > .list {
-  width: 20%;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 10px;
-  padding: 12px 8px 12px 8px;
-  border-radius: 10px;
-  justify-content: center;
-  transition: all 0.3s ease-in;
-  background-color: rgba(128, 128, 128, 0.116);
+	width: 20%;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 10px;
+	padding: 12px 8px 12px 8px;
+	border-radius: 10px;
+	justify-content: center;
+	transition: all 0.3s ease-in;
+	background-color: rgba(128, 128, 128, 0.116);
 }
 .data > .list > li {
-  list-style-type: none;
+	list-style-type: none;
 }
 .data {
-  padding: 1%;
-  margin-left: 6%;
-  justify-content: center;
+	padding: 1%;
+	margin-left: 6%;
+	justify-content: center;
 }
 .data > .list:hover {
-  -webkit-box-shadow: 10px 9px 34px -16px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 9px 34px -16px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 9px 34px -16px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 10px 9px 34px -16px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 9px 34px -16px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 9px 34px -16px rgba(0, 0, 0, 0.75);
 
-  cursor: pointer;
+	cursor: pointer;
 }
