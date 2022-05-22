@@ -19,6 +19,7 @@
 }
 
 .Navbar {
+  color: whitesmoke;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,7 +31,8 @@
   transition: 0.2s ease;
 }
 .notNavbar {
-  background-color: white;
+  color: white;
+  background-color: #2f3c7e;
 }
 
 .header {

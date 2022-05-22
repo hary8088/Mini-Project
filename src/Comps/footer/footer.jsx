@@ -9,21 +9,22 @@ function footer() {
     <>
       <footer className={Styles.footer}>
         <div className={Styles.details}>
+          <h2>Customer Care</h2>
           <div className={Styles.customer}>
-            <h2>Customer Care</h2>
             <h4>Contact Us</h4>
-            <h4>Return Exchange</h4>
-            <h4>Order Status</h4>
+            <h4>Products</h4>
           </div>
+        </div>
+        <div className={Styles.details}>
+          <h2>My Account</h2>
           <div className={Styles.myaccount}>
-            <h2>My Account</h2>
-            <h4>Singup/Register</h4>
-            <h4>Longin</h4>
+            <h4>SignUp/Register</h4>
+            <h4>Login</h4>
           </div>
+        </div>
+        <div className={Styles.details1}>
+          <h2>Social</h2>
           <div className={Styles.social}>
-            <div>
-              <h2>Social</h2>
-            </div>
             <div className={Styles.social_icons}>
               <h4>
                 <SiInstagram />

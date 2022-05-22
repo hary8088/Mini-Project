@@ -1,55 +1,53 @@
-// import { StylesContext } from "@material-ui/styles";
-// import { borders } from "@material-ui/system";
-import Button from "@material-ui/core/Button";
-
 import React from "react";
+
 import Styles from "../login/login.module.css";
 const login = () => {
   return (
     <>
-      <div className={Styles.main}>
-        <div className={Styles.submain}>
-          <form action="" className={Styles.form}>
-            <div className={Styles.customer}>
-              <h1>Customer Details</h1>
-              <hr />
-            </div>
-            <div className={Styles.inner}>
-              <div className={Styles.input}>
-                <label htmlFor="">Name:</label>
-                <input type="text" placeholder="Full Name" />
-              </div>
-              <div className={Styles.input}>
-                <label htmlFor="">Email-ID:</label>
-                <input type="email" name="" id="" placeholder="E-Mail" />
-              </div>
-              <div className={Styles.input}>
-                <label htmlFor="">Contact</label>
-                <input type="number" name="" id="" placeholder="ContactNo" />
-              </div>
-              <div className={Styles.input}>
-                <label htmlFor="">Password</label>
-                <input type="password" name="" id="" placeholder="PWD" />
-              </div>
-              <div className={Styles.input}>
-                <label htmlFor="">Confirm-PWD</label>
+      <div className={Styles.head}>
+        <div className={Styles.image}>
+          <img
+            src="https://images.pexels.com/photos/1029611/pexels-photo-1029611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
+          />
+        </div>
+        <div className={Styles.content}>
+          <h1>Log in</h1>
+          <div className={Styles.forms}>
+            <div className={Styles.field}>
+              <form action="">
+                <label>UserName*</label>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Enter your Username"
+                />
+                <br />
+                <br />
+                <label>Password*</label>
                 <input
                   type="password"
                   name=""
+                  placeholder="Enter your Password"
                   id=""
-                  placeholder="Confirm_PWD"
                 />
-              </div>
-              <div className={Styles.btn}>
-                <Button variant="contained" color="primary">
-                  SignUp
-                </Button>
-                <Button variant="contained" color="primary">
-                  Reset
-                </Button>
-              </div>
+                <br />
+                <br />
+                <input type="checkbox" name="" id="" />
+                <label> Remember Me</label>
+                <br />
+                <br />
+                <div className={Styles.button}>
+                  <input type="button" value="Login" />
+                </div>
+              </form>
             </div>
-          </form>
+          </div>
+          <div className={Styles.inner1}>
+            <h3>Forget Password</h3>
+            <h3>Don't have Account</h3>
+          </div>
         </div>
       </div>
     </>

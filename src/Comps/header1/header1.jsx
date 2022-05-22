@@ -1,10 +1,10 @@
 import React from "react";
-import Styles from "./header.module.css";
-import img from "../../images/Sivamtraders.png";
 import { Link } from "react-router-dom";
+import Styles from "./header1.module.css";
+import img from "../../images/Sivam_Traders-white.png";
 import { useState } from "react";
 
-function header() {
+const header1 = () => {
   const [change, setchange] = useState(false);
   const scrollevent = () => {
     if (window.scrollY >= 70) {
@@ -60,6 +60,6 @@ function header() {
       </div>
     </React.Fragment>
   );
-}
+};
 
-export default header;
+export default header1;
