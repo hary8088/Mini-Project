@@ -1,0 +1,83 @@
+.main-u {
+	display: flex;
+	flex-direction: column;
+	width: max-content;
+	border: 1px solid rgb(192, 190, 190);
+	background-color: rgb(255, 255, 255);
+	min-height: 300px;
+	justify-content: space-between;
+}
+
+.product {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 12px;
+	/* border: 2px solid black; */
+}
+.product.info {
+	display: flex;
+	flex-direction: column;
+	/* padding: 20px; */
+}
+.info {
+	/* padding: 20px; */
+	/* margin: 20px; */
+	/* border: 2px solid black; */
+	width: 220px;
+}
+.price {
+	/* border: 2px solid black; */
+	padding: 10px;
+	width: 100%;
+}
+.image {
+	padding: 8px;
+}
+.uk-button button {
+	width: 90%;
+	font-size: 15px;
+	background-color: aliceblue;
+	border: 1px solid rgb(189, 189, 189);
+}
+.uk-button button:hover {
+	width: 90%;
+	font-size: 15px;
+	background-color: rgb(216, 216, 216);
+	border: 1px solid rgb(189, 189, 189);
+	font-size: 16px;
+	transition: 0.3s;
+}
+.uk-button {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.modal {
+	background-color: rgb(255, 255, 255);
+	width: 400px;
+	height: 600px;
+	position: fixed;
+	top: 20%;
+	/* bottom: 50%; */
+	right: 40%;
+	/* left: 50%; */
+	padding: 50px;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	overflow: "auto";
+	border-radius: "4px";
+	outline: "none";
+	padding: "20px";
+}
+.overlay {
+	background-color: rgba(207, 207, 207, 0.733);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

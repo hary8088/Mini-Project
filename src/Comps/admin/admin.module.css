@@ -1,0 +1,30 @@
+.mainz {
+	display: flex;
+	width: 100vh;
+	height: 100vh;
+	/* padding: 20%; */
+}
+.contentz {
+	width: 30vh;	
+}
+.mainz-2 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 25%;
+}
+.navz{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 175vh;
+	padding: 2%;
+	/* background-color: rgb(214, 218, 21); */
+
+}
+.contentAreaz {
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+	margin: 2%;
+}
