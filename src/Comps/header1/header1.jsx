@@ -42,13 +42,13 @@ const header1 = () => {
               <h1>ContactUs</h1>
             </Link>
           </div>
-          {/* <div className={Styles.login}>
+          <div className={Styles.login}>
             <h1>
               <Link className="link" to="/login">
                 Login
               </Link>
             </h1>
-          </div> */}
+          </div>
           <div className={Styles.signup}>
             <h1>
               <Link className="link" to="/signup">
